@@ -7,7 +7,7 @@ Projeto Java desenvolvido como desafio para construir um catálogo de livros int
 ## 🚀 Tecnologias usadas
 
 - Java 21
-- Spring Boot 3.2.3
+- Spring Boot 3.5.4
 - Maven
 - PostgreSQL 16+
 - Jackson (JSON)
@@ -30,8 +30,13 @@ Projeto Java desenvolvido como desafio para construir um catálogo de livros int
 
 ## 🧱 Como rodar
 
-1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+1. Certifique-se de ter o Java JDK e o Maven instalados.
+2. Configure as seguintes variaveis de ambiente com seus dados.
+- POSTGRES_DB_PASSWORD 
+- POSTGRES_DB_USER 
+- DB_HOST
+3. Clone o repositório para o seu ambiente local.
+4. Navegue até o diretório do projeto no terminal.
+5. Execute o comando `./mvnw clean
+./mvnw spring-boot:run` para iniciar a aplicação.
+6. Siga as instruções apresentadas no console para interagir com o programa.
